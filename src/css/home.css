@@ -1,0 +1,49 @@
+.container {
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.item{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width:322px;
+  margin-top:8rem;
+  background:#fff;
+  box-shadow:0px 0px 6px #000;
+}
+
+.operation{
+  display:flex;
+  flex-direction:row;
+}
+
+button{
+  padding:20px 35px;
+  color:#fff;
+  border:1px solid #fff;
+  background:navy;
+  border-radius:6px;
+  font-size:16px;
+}
+
+.column{
+ display:flex;
+ flex-direction:column;
+}
+
+#eq{
+  height:122px;
+}
+
+.input input{
+  font-size:28px;
+  padding:33px 68px;
+  text-align:center;
+  border:none;
+  outline:none;
+  color:#000000;
+}
